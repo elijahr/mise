@@ -1,5 +1,44 @@
 # Changelog
 
+## [2026.9.13](https://github.com/jdx/mise/compare/v2026.9.12..v2026.9.13) - 2026-09-22
+
+### 🚀 Features
+
+- **(bootstrap)** remove module resources with unapply by @jdx in [#13441](https://github.com/jdx/mise/pull/13441)
+- **(cli)** colour the help page mise prints, and give it a logo by @jdx in [#13449](https://github.com/jdx/mise/pull/13449)
+- **(config)** add .miserc.local.toml overrides by @jdx in [#13440](https://github.com/jdx/mise/pull/13440)
+- **(hooks)** expose installed tool backend and path by @garysassano in [#13421](https://github.com/jdx/mise/pull/13421)
+
+### 🐛 Bug Fixes
+
+- **(bootstrap)** stop running Windows user services through cmd.exe by @jdx in [#13429](https://github.com/jdx/mise/pull/13429)
+- **(brew-cask)** percent-decode artifact filenames from cask URLs by @jdx in [#13431](https://github.com/jdx/mise/pull/13431)
+- **(cache)** stop prune from destroying installed tool files by @jdx in [#13424](https://github.com/jdx/mise/pull/13424)
+- **(history)** run the Windows watcher without a console window by @jdx in [#13428](https://github.com/jdx/mise/pull/13428)
+
+### 📚 Documentation
+
+- **(bootstrap)** explain optional setup modules with config environments by @jdx in [#13439](https://github.com/jdx/mise/pull/13439)
+- fix zsh completion steps rendering as duplicate "sh" tabs by @jdx in [#13423](https://github.com/jdx/mise/pull/13423)
+
+### 🧪 Testing
+
+- **(daemons)** make the port-slot test deterministic by @jdx in [#13447](https://github.com/jdx/mise/pull/13447)
+
+### 📦️ Dependency Updates
+
+- update rust crate usage-cli to v6.11.0 by @renovate[bot] in [#13450](https://github.com/jdx/mise/pull/13450)
+
+### Chore
+
+- **(ci)** comment on a discussion when the PR implementing it merges by @jdx in [#13452](https://github.com/jdx/mise/pull/13452)
+
+### 📦 Aqua Registry Updates
+
+#### Updated Packages (1)
+
+- [`nodejs/node`](https://github.com/nodejs/node)
+
 ## [2026.9.12](https://github.com/jdx/mise/compare/v2026.9.11..v2026.9.12) - 2026-09-20
 
 ### 🚀 Features
